@@ -1,6 +1,5 @@
 #A program to ask user input of news category for the NY Times
 #output is the top 5 'latest news' articles from that category
-#program must ask user if they want additional categories checking
 from bs4 import BeautifulSoup
 import requests
 def latest_news(cat_input):
